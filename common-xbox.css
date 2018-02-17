@@ -1,0 +1,158 @@
+/* Menu overrides */
+#wdp-menu-container {
+    background-color: rgb(58, 58, 58);
+}
+
+.wdp-menu ul,
+.wdp-active .wdp-menu-button {
+    background-color: rgb(58, 58, 58);
+}
+
+.wdp-menu li:hover,
+.signin-signincommand:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.wdp-menu-button:hover,
+.wdp-header button:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.wdp-menu li ul,
+.wdp-submenu.wdp-active,
+.wdp-submenu.wdp-active:hover,
+.wdp-submenu.wdp-active li:hover {
+    background-color: rgb(28, 28, 28);
+}
+
+.wdp-menu-workspaces .wdp-active {
+    background-color: rgb(43, 43, 43);
+}
+
+.wdp-menu ul.wdp-menu-fixedcommands {
+    background-color: rgb(47, 47, 47);
+}
+
+.wdp-header {
+    background-color: rgb(47, 47, 47);
+}
+
+/* Left navigation overrides */
+.wdp-nav {
+    background-color: rgb(47, 47, 47);
+}
+
+.wdp-nav-workspace:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.wdp-nav-divider {
+    border-top: 2px solid rgb(24, 24, 24);
+}
+
+.wdp-nav-workspace.wdp-active {
+    background-color: rgb(16, 16, 16);
+}
+
+/* Workspace overrides */
+[data-dock-node-type="3"] .dock-header.wdp-active .dock-header-title {
+    border-bottom-color: rgb(16, 124, 16);
+}
+
+/* Button overrides */
+button,
+.commonButton,
+button.btn-primary,
+.commonButton.btn-primary {
+    background-color: rgb(16, 100, 256);
+    color: rgb(255, 255, 255);
+}
+
+    button:hover,
+    .commonButton:hover,
+    .commonButton:focus,
+    button.btn-primary:hover,
+    .commonButton.btn-primary:hover,
+    button.btn-primary:focus,
+    .commonButton.btn-primary:focus {
+        background-color: rgb(13, 99, 13);
+        border-color: rgb(13, 99, 13);
+    }
+
+    button:active,
+    .commonButton:active {
+        background-color: rgb(16, 124, 16);
+    }
+
+    button[disabled],
+    .commonButton[disabled],
+    fieldset[disabled] button,
+    fieldset[disabled] .commonButton {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+    }
+
+.btn-secondary {
+    background-color: rgb(58, 58, 58);
+}
+
+/* Hyperlink overrides */
+a,
+a:link,
+.link,
+a:visited {
+    color: rgb(16, 124, 16);
+}
+
+/* Checkbox overrides */
+input[type="checkbox"]:checked::-ms-check {
+    background-color: rgb(16, 124, 16);
+    border-color: rgb(16, 124, 16);
+}
+
+/* Overlay overrides */
+.wdp-dropdown {
+    border: 2px solid rgb(16, 124, 16);
+}
+
+/* Table overrides */
+.tableCell {
+    padding-top: 8px;
+}
+
+    .tableCell input {
+        margin-top: -4px;
+    }
+
+/* First run */
+.wdp-enhancedtooltip {
+    margin-top: 12px;
+    border: 3px solid rgb(0, 120, 215);
+}
+
+.wdp-overlay-arrowindicator {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 8px);
+    margin-top: -18px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid rgb(0, 120, 215);
+}
+
+.slideDown {
+    animation-name: slideDown;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.29, 0.99);
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-64px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
