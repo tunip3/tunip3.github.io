@@ -45,10 +45,6 @@ function setup() {
     var machineNameElement = document.createElement('div');
     machineNameElement.innerHTML = '<h2>Mackhine Name: ' + machineName + '</h2>';
     header.appendChild(machineNameElement);
-    
-    var memes = document.createElement('div');
-    memes.innerHTML = '<h2>Testing</h2>';
-    header.appendChild(memes);
 
     var sandboxId = Windows.Xbox.Services.XboxLiveConfiguration.sandboxId;
     var sandboxIdElement = document.createElement('div');
