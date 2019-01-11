@@ -57,6 +57,9 @@ function setup() {
     var element1 = document.createElement('div');
     element1.innerHTML = '<h2> Settings ' + capture.CaptureRunning + '</h2>';
     header.appendChild(element1);
+    
+    var memes = document.createElement('div');
+    memes.innerHTML = '<h2>Testing</h2>';
 }
 
 function launchApp() {
