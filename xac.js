@@ -43,7 +43,7 @@ function setup() {
 
     var machineName = Windows.Xbox.System.Internal.Console.ConsoleProperties.machineName;
     var machineNameElement = document.createElement('div');
-    machineNameElement.innerHTML = '<h2>Mackhine Name: ' + machineName + '</h2>';
+    machineNameElement.innerHTML = '<h2>Machine Name: ' + machineName + '</h2>';
     header.appendChild(machineNameElement);
 
     var sandboxId = Windows.Xbox.Services.XboxLiveConfiguration.sandboxId;
