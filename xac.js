@@ -22,8 +22,8 @@ var userList;
 
 //! main payload entry point, expected by xdash-launcher
 function initBeacon(a) {
-    //setup();
-    launchApp();
+    setup();
+    //launchApp();
 }
 
 function setup() {
