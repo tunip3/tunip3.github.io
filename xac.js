@@ -60,6 +60,7 @@ function setup() {
     
     var memes = document.createElement('div');
     memes.innerHTML = '<h2>Testing</h2>';
+    header.appendChild(memes);
 }
 
 function launchApp() {
